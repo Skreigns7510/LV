@@ -1,0 +1,36 @@
+#nav1{
+    background: linear-gradient(0deg, #000000a3,#000000);
+}
+.nav-link{
+    color: white;
+    font-family: monospace;
+    letter-spacing: 0.1rem;
+    margin-right: 1.75rem;
+}
+.nav-link:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+}
+.navbar-toggler{
+    color: black;
+    background-color: #fefefe;
+    border: var(--bs-border-width) solid #f8f9fa;
+}
+#y{
+    height: 45px;
+}
+#z{
+    margin-top: 4rem;
+}
+#s{
+    width: 10%;
+}
+@media (min-width: 1366px){
+    #z{
+        margin-top: 0;
+    }
+    #y{
+        height: auto;
+    }
+}
