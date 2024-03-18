@@ -1,64 +1,24 @@
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEAST MOTORS</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/home.css">
-</head>
-
-<body>
-    <!-- navbar start -->
-    <nav class="navbar navbar-expand-md fixed-top" id="nav1">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="">
-                <img class="img-fluid" id="y"src="../IMAGES/Daco_367502.png" alt="">
-            </a>
-            <button class="navbar-toggler" data-bs-target="#a" data-bs-toggle="collapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" id="a">
-                <ul class="navbar-nav text-center ms-auto">
-                    <li><a href="" class="nav-link">HOME</a></li>
-                    <li><a href="" class="nav-link">CARS</a></li>
-                    <li><a href="" class="nav-link">BIKES</a></li>
-                    <li><a href="" class="nav-link">CUSTOMIZATION</a></li>
-                    <li><a href="" class="nav-link">ABOUT US</a></li>
-                </ul>
-            </div>
-        </div>
-
-    </nav>
-    <!-- navbar close -->
-    <div class="carousel slide" data-bs-ride="carousel" id="z">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#z" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#z" data-bs-slide-to="1"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="../IMAGES/car1.jpg" alt="">
-
-            </div>
-            <div class="carousel-item">
-                <img class="w-100" src="../IMAGES/car2.jpg" alt="">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#z" data-bs-slide="prev" id="s">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#z" data-bs-slide="next" id="s">
-            <span class="carousel-control-next-icon"></span>
-        </button>
+<%- include('./header.ejs')  %>
+<div class="carousel slide" data-bs-ride="carousel" id="z">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#z" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#z" data-bs-slide-to="1"></button>
     </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="w-100" src="" alt="">
 
-</body>
+        </div>
+        <div class="carousel-item">
+            <img class="w-100" src="../IMAGES/car2.jpg" alt="">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#z" data-bs-slide="prev" id="s">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#z" data-bs-slide="next" id="s">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
 
-</html>
+<%- include('./footer.ejs')  %>
