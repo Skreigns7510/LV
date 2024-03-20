@@ -8,5 +8,13 @@ class FrontController{
             console.log(error)
         }
     }
+    static contact =async(req,res)=>{
+        try{
+            res.render("contact")
+        }
+        catch (error) {
+            console.log(error)
+        }
+    }
 }
 module.exports=FrontController
