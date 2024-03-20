@@ -20,7 +20,7 @@
     border: var(--bs-border-width) solid black;
 }
 
-.btn1 {
+.btn0 {
     border-radius: 20px;
     background-color: white;
     border: 2px solid #00abff;
@@ -33,7 +33,7 @@
     transition: background-color 0.5s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
-.btn1:hover {
+.btn0:hover {
     background-color: #00abff;
     color: white;
 }
@@ -482,7 +482,7 @@ body{
   /* About */
 
   .responsive-container-block.rightSide {
-    width: 675px;
+    /* width: 600px; */
     position: relative;
     padding-top: 0px;
     padding-right: 0px;
