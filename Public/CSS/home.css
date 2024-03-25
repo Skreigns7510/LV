@@ -77,6 +77,8 @@
 
 #dropdown:hover .list {
     display: block;
+    animation: zoomIn;
+    animation-duration: 0.3s;
 }
 
 
