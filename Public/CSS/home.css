@@ -389,7 +389,7 @@ body {
   display: flex;
   justify-content: space-around;
   gap: 10px;
-  background-size: contain;
+  background-size: cover;
 }
 .contai {
   width: 28vmin;
