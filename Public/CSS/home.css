@@ -338,239 +338,6 @@ body {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
-/* About */
-
-.responsive-container-block.rightSide {
-  /* width: 600px; */
-  position: relative;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  display: flex;
-  height: 700px;
-  min-height: auto;
-}
-
-.number1img {
-  margin-top: 39%;
-  margin-right: 80%;
-  margin-bottom: 29%;
-  margin-left: 0px;
-  height: 32%;
-  width: 20%;
-  position: absolute;
-}
-
-.number2img {
-  margin-top: 19%;
-  margin-right: 42%;
-  margin-bottom: 42%;
-  margin-left: 23%;
-  width: 35%;
-  height: 39%;
-  position: absolute;
-}
-
-.number3img {
-  width: 13%;
-  height: 21%;
-  position: absolute;
-  margin-top: 62%;
-  margin-right: 64%;
-  margin-bottom: 30%;
-  margin-left: 23%;
-}
-
-.number4vid {
-  width: 34%;
-  height: 33%;
-  position: absolute;
-  margin-top: 62%;
-  margin-right: 27%;
-  margin-bottom: 0px;
-  margin-left: 39%;
-}
-
-.number5img {
-  position: absolute;
-  width: 13%;
-  height: 21%;
-  margin-top: 38%;
-  margin-right: 27%;
-  margin-bottom: 41%;
-  margin-left: 60%;
-}
-
-.number6img {
-  position: absolute;
-  margin-top: 0px;
-  margin-right: 3%;
-  margin-bottom: 67%;
-  margin-left: 62%;
-  width: 35%;
-  height: 33%;
-}
-
-.number7img {
-  position: absolute;
-  width: 25%;
-  margin-top: 40%;
-  margin-right: 0px;
-  margin-bottom: 18%;
-  margin-left: 75%;
-  height: 42%;
-}
-
-.text-blk.subHeading {
-  font-size: 14px;
-  line-height: 25px;
-}
-
-@media (max-width: 1024px) {
-  .responsive-container-block.Container {
-    flex-direction: column-reverse;
-  }
-
-  .text-blk.heading {
-    text-align: center;
-    max-width: 370px;
-  }
-
-  .text-blk.subHeading {
-    text-align: center;
-  }
-
-  .responsive-container-block.leftSide {
-    align-items: center;
-    max-width: 480px;
-  }
-
-  .responsive-container-block.rightSide {
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 100px;
-    margin-left: auto;
-  }
-
-  .responsive-container-block.rightSide {
-    margin: 0 auto 70px auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .responsive-container-block.rightSide {
-    width: 450px;
-    height: 450px;
-  }
-
-  .responsive-container-block.leftSide {
-    max-width: 450px;
-  }
-}
-
-@media (max-width: 500px) {
-  .number1img {
-    display: none;
-  }
-
-  .number2img {
-    display: none;
-  }
-
-  .number3img {
-    display: none;
-  }
-
-  .number5img {
-    display: none;
-  }
-
-  .number6img {
-    display: none;
-  }
-
-  .number7img {
-    display: none;
-  }
-
-  .responsive-container-block.rightSide {
-    width: 100%;
-    height: 250px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 100px;
-    margin-left: 0px;
-  }
-
-  .number4vid {
-    position: static;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    width: 100%;
-    height: 100%;
-  }
-
-  .text-blk.heading {
-    font-size: 25px;
-    line-height: 40px;
-    max-width: 370px;
-    width: auto;
-  }
-
-  .text-blk.subHeading {
-    font-size: 14px;
-    line-height: 25px;
-  }
-
-  .responsive-container-block.leftSide {
-    width: 100%;
-  }
-}
-
-.a {
-  text-align: center;
-  padding-top: 20px;
-  text-transform: uppercase;
-  font-family: "prague";
-  letter-spacing: 3px;
-}
-
-.b {
-  text-align: justify;
-  letter-spacing: 0px;
-  line-height: 40px;
-  word-spacing: 5px;
-  padding-right: 5px;
-  font-weight: 300;
-}
-
-.img {
-  width: 80%;
-}
-.c {
-  font-weight: bold;
-  font-size: 16px;
-  text-transform: uppercase;
-  text-align: left;
-  margin-bottom: 22px;
-  line-height: 1.55;
-}
-
-#btn-1 {
-  background-color: #00b2eb;
-  border-radius: 0px;
-  border: none;
-}
-
-#btn-1:hover {
-  background-color: #0073bf;
-  color: white;
-}
-
 /* service now */
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
@@ -616,7 +383,7 @@ body {
 
 .wrapper {
   padding: 35px;
-  background: url(/Video/J4o.gif);
+  background: url("https://www.verizon.com/about/sites/default/files/2021-07/ces-2021-hero-1272x477-2.gif");
   width: 100%;
   position: relative;
   transform: translate(-50%, -50%);
@@ -638,7 +405,7 @@ body {
   background-color: #fafafa;
   border-bottom: 10px solid #00b2eb;
 }
-i {
+#ic {
   color: #18d3f9;
   font-size: 2.5em;
   text-align: center;
@@ -659,9 +426,6 @@ span.text {
   line-height: 0;
 }
 @media screen and (max-width: 1024px) {
-  .wrapper {
-    width: 85vw;
-  }
   .container {
     height: 26vmin;
     width: 26vmin;
@@ -670,7 +434,6 @@ span.text {
 }
 @media screen and (max-width: 768px) {
   .wrapper {
-    width: 90vw;
     flex-wrap: wrap;
     gap: 30px;
   }
