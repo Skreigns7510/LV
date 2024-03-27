@@ -1,174 +1,225 @@
-<%- include('./header.ejs')  %>
+<%- include('./header.ejs') %>
 <div class="carousel slide" data-bs-ride="carousel" id="z">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#z" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#z" data-bs-slide-to="1"></button>
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#z"
+      data-bs-slide-to="0"
+      class="active"
+    ></button>
+    <button type="button" data-bs-target="#z" data-bs-slide-to="1"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="sliding"></div>
+    <div class="carousel-item active">
+      <img
+        class="carousel-img"
+        src="https://www2.deloitte.com/content/dam/html/us/client-stories/code-numbers-binary-large-desktop-2000x1260.png"
+        alt=""
+      />
     </div>
-    <div class="carousel-inner">
-      <div class="sliding">
-       </div>
-        <div class="carousel-item active ">
-            <img class="carousel-img" src="https://www2.deloitte.com/content/dam/html/us/client-stories/code-numbers-binary-large-desktop-2000x1260.png" alt="">
-        </div>
-        <div class="carousel-item">
-            <img class="carousel-img" src="/Images/caraousel2.jpg" alt="">
-        </div>
+    <div class="carousel-item">
+      <img class="carousel-img" src="/Images/caraousel2.jpg" alt="" />
     </div>
-    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#z" data-bs-slide="prev" id="s">
-        <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#z" data-bs-slide="next" id="s">
-        <span class="carousel-control-next-icon"></span>
-    </button> -->
+  </div>
 </div>
 
-  <!-- Services Section -->
-  <section class="container-fluid">
-    <div class="cont" id="c1">
-        <div class="row">
-                <h2 style="color: rgb(32 95 187);" class="aa">Services Provided</h2>
+<!-- Service Now -->
+<div class="container-fluid">
+  <h1 class="text-center mt-5 display-3 fw-bold">
+    Our <span class="theme-text">Services</span>
+  </h1>
+  <hr class="mx-auto mb-5 w-25" />
+  <div class="row mb-5">
+    <div class="col-12 col-sm-6 col-md-3 m-auto">
+      <!-- card starts here -->
+      <div class="card shadow">
+        <img src="/images/web.svg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h3 class="text-center">Web Development</h3>
+          <hr class="mx-auto w-75" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi
+            soluta est veniam sequi nemo, quas delectus eveniet ducimus rem
+            animi. Natus non earum deleniti aliquam
+          </p>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="blog-wrapper">
-                    <div class="blog-img ImageWrapper">
-                        <a href="#" class="bubble-top">
-                          <center>
-                            <img style="height: 281px;
-                            width: 345px;" src="images/b1.png" class="img-responsive" alt="">
-                            <div class="PStyleHe"></div>
-                          </center>
-                        </a>
-                    </div>
-                    <div class="blog-content">
-                        <h4 class="blog-title"><a href="#">Website Development</a></h4>
-                        <p class="post-content">This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quisquam minus in commodi illo laboriosam autem.</p>
-                        <a href="#" class="read-more">Read More <i class="bi bi-chevron-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blog-wrapper">
-
-                    <div class="blog-content">
-                        <h4 class="blog-title"><a href="#">UI/UX Designing</a></h4>
-                       
-                        <p class="post-content">This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quisquam minus in commodi illo laboriosam autem.</p>
-                        <a href="#" class="read-more">Read More <i class="bi bi-chevron-double-right"></i></a>
-                    </div>
-                    <div class="blog-img ImageWrapper">
-                        <a href="#" class="bubble-bottom">
-                          <center>
-                            <img style="height: 281px;
-                            width: 345px;" src="images/b2.png" class="img-responsive" alt="">
-                            <div class="PStyleHe"></div>
-                          </center>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blog-wrapper">
-                    <div class="blog-img ImageWrapper">
-                        <a href="#" class="bubble-top">
-                          <center>
-                            <img style="height: 281px;
-                            width: 345px;" src="images/b3.jpeg" class="img-responsive" alt="">
-                            <div class="PStyleHe"></div>
-                          </center>
-                        </a>
-                    </div>
-                    <div class="blog-content">
-                        <h4 class="blog-title"><a href="#">Graphic Designing</a></h4>
-                        
-                        <p class="post-content">This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quisquam minus in commodi illo laboriosam autem.</p>
-                        <a href="#" class="read-more">Read More<i class="bi bi-chevron-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="btService">
-            <button type="button" class="btn1">More Services</button>
-        </div>
-        
-    </div>
-   </section>
-
-   <!-- Services End -->
-
-   <!-- About Section -->
-   <div class="container-fluid">
-    <h2 class="a">ABOUT <b style="color: #509cff">US</b></h2>
-    <br />
-    <div class="row px-4">
-      <div class="col-md">
-        <h2 class="c">WHO WE ARE</h2>
-        <p class="b">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi,
-          autem omnis ad sint expedita ducimus facere minima labore, dolorum
-          corrupti excepturi ea eaque cupiditate quo sed suscipit culpa
-          perspiciatis ab, qui ratione debitis. Saepe quo sed voluptate
-          accusamus facilis! At iste ut dolor quasi expedita. 
-          perspiciatis ab, qui ratione debitis. Saepe quo sed voluptate
-          accusamus facilis! At iste ut dolor quasi expedita.
-        </p>
-        <h2 class="c">WHAT WE DO</h2>
-        <p class="b">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi,
-          autem omnis ad sint expedita ducimus facere minima labore, dolorum
-          corrupti excepturi ea eaque cupiditate quo sed suscipit culpa
-          perspiciatis ab, qui ratione debitis. Saepe quo sed voluptate
-          accusamus facilis! At iste ut dolor quasi expedita.
-          perspiciatis ab, qui ratione debitis. Saepe quo sed voluptate
-          accusamus facilis! At iste ut dolor quasi expedita.
-        </p>
-        <center>
-          <button id="btn-1" class="btn btn-warning btn-lg mt-5 mb-2">
-            More About Us
-          </button>
-        </center>
       </div>
-      <div class="col-md text-center">
-        <div class="responsive-container-block rightSide">
-          <img
-            class="number1img"
-            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET32.jpg"
-          />
-          <img
-            class="number2img"
-            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d14.png"
-          />
-          <img
-            class="number3img"
-            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b245.png"
-          />
-          <img
-            class="number5img"
-            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Customer supports.png"
-          />
-          <iframe
-            allowfullscreen="allowfullscreen"
-            class="number4vid"
-            poster="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b242.png"
-            src="https://www.youtube.com/embed/svg%3E?"
-          >
-          </iframe>
-          <img
-            class="number7img"
-            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d51.png"
-          />
-          <img
-            class="number6img"
-            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d12.png"
-          />
+      <!-- card ends here -->
+    </div>
+    <!-- col ends here -->
+    <div class="col-12 col-sm-6 col-md-3 m-auto">
+      <!-- card starts here -->
+      <div class="card shadow">
+        <img src="images/app.svg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h3 class="text-center">App Development</h3>
+          <hr class="mx-auto w-75" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi
+            soluta est veniam sequi nemo, quas delectus eveniet ducimus rem
+            animi. Natus non earum deleniti aliquam
+          </p>
         </div>
+      </div>
+      <!-- card ends here -->
+    </div>
+    <!-- col ends here -->
+    <div class="col-12 col-sm-6 col-md-3 m-auto">
+      <!-- card starts here -->
+      <div class="card shadow">
+        <img src="images/dm.svg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h3 class="text-center">Digital Marketing</h3>
+          <hr class="mx-auto w-75" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi
+            soluta est veniam sequi nemo, quas delectus eveniet ducimus rem
+            animi. Natus non earum deleniti aliquam
+          </p>
+        </div>
+      </div>
+      <!-- card ends here -->
+    </div>
+    <!-- col ends here -->
+    <div class="col-12 col-sm-6 col-md-3 m-auto">
+      <!-- card starts here -->
+      <div class="card shadow">
+        <img src="images/seo.svg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h3 class="text-center">Email Marketing</h3>
+          <hr class="mx-auto w-75" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi
+            soluta est veniam sequi nemo, quas delectus eveniet ducimus rem
+            animi. Natus non earum deleniti aliquam
+          </p>
+        </div>
+      </div>
+      <!-- card ends here -->
+    </div>
+    <!-- col ends here -->
+  </div>
+</div>
+<!-- Service Now End -->
+
+<!-- About Section -->
+<div class="container-fluid" style="margin-bottom: 165px">
+  <h2 class="a">ABOUT <b style="color: #509cff">US</b></h2>
+  <br />
+  <div class="row px-4">
+    <div class="col-md">
+      <h2 class="c">WHO WE ARE</h2>
+      <p class="b">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi,
+        autem omnis ad sint expedita ducimus facere minima labore, dolorum
+        corrupti excepturi ea eaque cupiditate quo sed suscipit culpa
+        perspiciatis ab, qui ratione debitis. Saepe quo sed voluptate accusamus
+        facilis! At iste ut dolor quasi expedita. perspiciatis ab, qui ratione
+        debitis. Saepe quo sed voluptate accusamus facilis! At iste ut dolor
+        quasi expedita.
+      </p>
+      <h2 class="c">WHAT WE DO</h2>
+      <p class="b">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi,
+        autem omnis ad sint expedita ducimus facere minima labore, dolorum
+        corrupti excepturi ea eaque cupiditate quo sed suscipit culpa
+        perspiciatis ab, qui ratione debitis. Saepe quo sed voluptate accusamus
+        facilis! At iste ut dolor quasi expedita. perspiciatis ab, qui ratione
+        debitis. Saepe quo sed voluptate accusamus facilis! At iste ut dolor
+        quasi expedita.
+      </p>
+      <center>
+        <button id="btn-1" class="btn btn-warning btn-lg mt-5 mb-2">
+          More About Us
+        </button>
+      </center>
+    </div>
+    <div class="col-md text-center">
+      <div class="responsive-container-block rightSide">
+        <img
+          class="number1img"
+          src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET32.jpg"
+        />
+        <img
+          class="number2img"
+          src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d14.png"
+        />
+        <img
+          class="number3img"
+          src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b245.png"
+        />
+        <img
+          class="number5img"
+          src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Customer supports.png"
+        />
+        <iframe
+          allowfullscreen="allowfullscreen"
+          class="number4vid"
+          poster="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b242.png"
+          src="https://www.youtube.com/embed/svg%3E?"
+        >
+        </iframe>
+        <img
+          class="number7img"
+          src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d51.png"
+        />
+        <img
+          class="number6img"
+          src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d12.png"
+        />
       </div>
     </div>
   </div>
+</div>
 
-  <!-- About End -->
-<%- include('./footer.ejs')  %>
+<!-- About End -->
+
+<!-- counter -->
+<div class="wrapper">
+  <div class="container">
+    <i class="fa fa-code fa-2x"></i>
+    <span class="num" data-val="400">000</span>
+    <span class="text">Completed Projects</span>
+  </div>
+
+  <div class="container">
+    <i class="fa-solid fa-users"></i>
+    <span class="num" data-val="340">000</span>
+    <span class="text">Happy Customers</span>
+  </div>
+
+  <div class="container">
+    <i class="fa-solid fa-award"></i>
+    <span class="num" data-val="225">000</span>
+    <span class="text">Startup Supported</span>
+  </div>
+
+  <div class="container">
+    <i class="fa-regular fa-id-card"></i>
+    <span class="num" data-val="280">000</span>
+    <span class="text">Satisfaction Rate</span>
+  </div>
+</div>
+<!-- Script -->
+<script>
+  let valueDisplays = document.querySelectorAll(".num");
+  let interval = 4000;
+
+  valueDisplays.forEach((valueDisplay) => {
+    let startValue = 0;
+    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+    let duration = Math.floor(interval / endValue);
+    let counter = setInterval(function () {
+      startValue += 1;
+      valueDisplay.textContent = startValue;
+      if (startValue == endValue) {
+        clearInterval(counter);
+      }
+    }, duration);
+  });
+</script>
+
+<!-- counter  End -->
+
+<%- include('./footer.ejs') %>
