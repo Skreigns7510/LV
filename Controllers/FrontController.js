@@ -16,5 +16,13 @@ class FrontController{
             console.log(error)
         }
     }
+    static about =async(req,res)=>{
+        try{
+            res.render("aboutus")
+        }
+        catch (error) {
+            console.log(error)
+        }
+    }
 }
 module.exports=FrontController
