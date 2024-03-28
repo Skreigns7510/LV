@@ -121,7 +121,6 @@
 }
 
 #footer {
-  margin-top: 900px;
   background: url("https://www.cornwallcreative.com/wp-content/uploads/2020/01/Cornwall-Creative-Wesbite-Header-Background-Black-design-company-design-agency-graphic-design-uk-2.jpg");
   display: flex;
   flex-direction: column;
@@ -425,9 +424,14 @@ i {
   width: 100%;
 }
 .card {
+  margin-top: 2.5rem;
   z-index: 1;
   overflow: hidden;
   transition: 0.5s;
+  background: linear-gradient(0deg, #d0d0d0, #00000029);
+  border: none;
+  border-radius: 1.5rem;
+  box-shadow: 7px 7px 4px #979797;
 }
 .card:hover {
   color: white;
@@ -446,11 +450,6 @@ i {
 .card:hover::before {
   left: 0%;
   color: white;
-}
-.container-fluid {
-  background-image: url("blob-scene-haikei.svg");
-  background-position: center;
-  background-size: cover;
 }
 
 /* counter */
@@ -675,7 +674,6 @@ body{
 
 
 /* Why Choose Us */
-body{margin-top:20px;}
 .rounded-circle {
     border-radius: 50% !important;
 }
@@ -702,8 +700,7 @@ h2{
 }
 /* Slider */
 #logoSlider{
- 
-  /* background-position:center ; */
+ padding-bottom: 3rem;
   background: url(https://r4.wallpaperflare.com/wallpaper/888/200/919/earth-black-background-world-map-the-continent-wallpaper-7281b2a0dd96eeebca88d2d520888932.jpg);
   background-size: contain;
 }
