@@ -3,6 +3,19 @@
   padding: 0;
   background: #000000bf;
 }
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  bottom: 60px;
+}
      
 .nav-link {
   color: white;
@@ -771,9 +784,6 @@ h2{
 .slick-arrow.slick-hidden {
     display: none;
 }
-
-
-
 
 .shapedividers_com-7975{
   overflow:hidden;
