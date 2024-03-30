@@ -1,31 +1,37 @@
 <%- include('./header.ejs') %>
-  <div class="carousel slide carousel-fade shapedividers_com-7975" id="z">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#z" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#z" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#z" data-bs-slide-to="2"></button>
-      <button type="button" data-bs-target="#z" data-bs-slide-to="3"></button>
-      <button type="button" data-bs-target="#z" data-bs-slide-to="4"></button>
+<div class="carousel slide carousel-fade shapedividers_com-7975" data-bs-ride="carousel" id="z">
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#z"
+      data-bs-slide-to="0"
+      class="active"
+    ></button>
+    <button type="button" data-bs-target="#z" data-bs-slide-to="1"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="sliding"></div>
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img
+        class="carousel-img"
+        src="/Images/Bimg.jpg"
+        alt=""
+      />
     </div>
-    <div class="carousel-inner">
-      <div class="sliding"></div>
-      <div class="carousel-item active" data-bs-interval="2000">
-        <img class="carousel-img" src="/Images/Bimg.jpg" alt="" />
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img class="carousel-img" src="/Images/Bimg2.jpg" alt="" />
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img class="carousel-img" src="/Images/Bimg3.jpg" alt="" />
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img class="carousel-img" src="/Images/Bimg4.jpg" alt="" />
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img class="carousel-img" src="/Images/Bimg5.jpg" alt="" />
-      </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="carousel-img" src="/Images/Bimg2.jpg" alt="" />
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="carousel-img" src="/Images/Bimg3.jpg" alt="" />
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="carousel-img" src="/Images/Bimg4.jpg" alt="" />
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="carousel-img" src="/Images/Bimg5.jpg" alt="" />
     </div>
   </div>
+</div>
 
   <!-- Service Now -->
   <div class="container-fluid p-5 ">
@@ -151,13 +157,13 @@
   </div>
   <!-- Why Choose Us End -->
 
-  <!-- counter -->
-  <div class="wrapper">
-    <div class="contai">
-      <i id="ic" class="fa fa-code fa-2x"></i>
-      <span class="num" data-val="400">000</span>
-      <span class="text">Completed Projects</span>
-    </div>
+<!-- counter -->
+<div class="wrapper">
+  <div class="contai">
+    <i id="ic" class="fa fa-code fa-2x"></i>
+    <span class="num" data-val="400">000</span>
+    <span class="text">Completed Projects</span>
+  </div>
 
     <div class="contai">
       <i id="ic" class="fa-solid fa-users"></i>
