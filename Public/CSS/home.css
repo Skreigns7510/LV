@@ -1827,3 +1827,82 @@ h2{
 	}
 
 }
+
+
+/* industries */
+#product1{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+#product1 .hexagon::before{
+  content: '';
+  position: absolute;
+  bottom: -70px;
+  width: 100%;
+  height: 60px;
+  background: radial-gradient(rgba(0,0,0,0.16), transparent, transparent);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+#product1 .hexagon:hover::before{
+  opacity: 0.8;
+  transform: scale(0.8);
+}
+
+#product1 .hexagon{
+position: relative;
+width: 250px;
+height: 300px;
+margin: 50px 50px 60px;
+}
+
+#product1 .hexagon .hexagon-shape{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  transition: 0.5s;
+}
+
+#product1 .hexagon:hover .hexagon-shape{
+  transform: translateY(-30px);
+}
+
+#product1 .hexagon .hexagon-shape img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#product1 .hexagon .hexagon-shape .content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(45deg, #27a1e8, rgba(3,255,244,0.5));
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#product1 .hexagon:hover .hexagon-shape .content{
+  opacity: 1;
+}
