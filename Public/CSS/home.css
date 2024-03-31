@@ -843,3 +843,250 @@ h2{
     background-size: 100px 100%;
     background-position: 100% 50%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 158.42 1134.63"><g fill="%23181717"><path d="M158.42 0v1134.63L47.1 565.17Z"/><path d="M158.42 0h-51.38L0 565.17l115.6 569.46h42.82Z" opacity=".66"/></g></svg>'); 
     }
+
+
+
+
+
+    /* why */
+    .container {
+      width: 100%;
+      height: 85vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box {
+      width: 90vw;
+      height: 90vh;
+      display: flex;
+      flex-direction: row;
+    }
+    .circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .root1 {
+      width: 35%;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .sec1 {
+      width: 100%;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 5px;
+    }
+    .sec1 h1 {
+      margin: 0%;
+      letter-spacing: 2px;
+      color: #000000;
+      font-size: 25px;
+    }
+    .sec1 p {
+      /* font-style: italic; */
+      font-weight: 500;
+      margin: 10px;
+    }
+    .sec1 .circle {
+      background-color: #000000;
+      box-shadow: rgb(2 171 255) 0px 1px 28px, rgb(0 0 0) 0px 1px 10px;
+    }
+    .sec2 {
+      width: 100%;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 5px;
+    }
+    .sec2 h1 {
+      margin: 0%;
+      letter-spacing: 2px;
+      color: #000000;
+      font-size: 25px;
+    }
+    .sec2 p {
+      /* font-style: italic; */
+      font-weight: 500;
+      margin: 10px;
+    }
+    .sec2 .circle {
+      background-color: #000000;
+      box-shadow: rgb(2 171 255) 0px 1px 28px, rgb(0 0 0) 0px 1px 10px;
+    }
+    .root2 {
+      width: 30%;
+      height: 82vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .root2 img {
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: rgb(2 171 255) 0px 1px 28px, rgb(0 0 0) 0px 1px 10px;
+    }
+    .root2 img:hover{
+      box-shadow: rgb(0, 0, 0) 0px 1px 28px, rgb(0 0 0) 0px 1px 10px;
+      transition: 0.4s;
+    }
+    .root3 {
+      width: 35%;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .sec3 {
+      width: 100%;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 5px;
+    }
+    .sec3 h1 {
+      margin: 0%;
+      letter-spacing: 2px;
+      color: #000000;
+      font-size: 25px;
+    }
+    .sec3 p {
+      /* font-style: italic; */
+      font-weight: 500;
+      margin: 10px;
+    }
+    .sec3 .circle {
+      background-color: #000000;
+      box-shadow: rgb(2 171 255) 0px 1px 28px, rgb(0 0 0) 0px 1px 10px;
+    }
+    .sec4 {
+      width: 100%;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 5px;
+    }
+    .sec4 h1 {
+      margin: 0%;
+      letter-spacing: 2px;
+      color: #000000;
+      font-size: 25px;
+    }
+    .sec4 p {
+      /* font-style: italic; */
+      font-weight: 500;
+      margin: 10px;
+    }
+    .sec4 .circle {
+      background-color: #000000;
+      box-shadow: rgb(2 171 255) 0px 1px 28px, rgb(0 0 0) 0px 1px 10px;
+      
+    }
+    .sec4 .circle:hover{
+      box-shadow: rgb(0, 0, 0) 0px 1px 28px, rgb(0 0 0) 0px 1px 10px;
+      transition: 0.4s;
+    }
+    .sec3 .circle:hover{
+      box-shadow: rgb(0, 0, 0) 0px 1px 28px, rgb(0 0 0) 0px 1px 10px;
+      transition: 0.4s;
+    }
+    .sec2 .circle:hover{
+      box-shadow: rgb(0, 0, 0) 0px 1px 28px, rgb(0 0 0) 0px 1px 10px;
+      transition: 0.4s;
+    }
+    .sec1 .circle:hover{
+      box-shadow: rgb(0, 0, 0) 0px 1px 28px, rgb(0 0 0) 0px 1px 10px;
+      transition: 0.4s;
+    }
+    @media screen and (max-width: 1024px) {
+      .container {
+        height: fit-content;
+      }
+      .box {
+        flex-direction: column;
+        row-gap: 30px;
+        height: fit-content;
+      }
+      .root1 {
+        width: 100%;
+        height: fit-content;
+        order: 2;
+        row-gap: 30px;
+        font-size: 20px;
+      }
+      .root2 {
+        width: 100%;
+        height: fit-content;
+        order: 1;
+      }
+      .root3 {
+        width: 100%;
+        height: fit-content;
+        order: 3;
+        row-gap: 30px;
+        font-size: 20px;
+      }
+    }
+    @media screen and (max-width: 630px) {
+      .container {
+        padding: 20px 0px;
+        height: fit-content;
+      }
+      .box {
+        flex-direction: column;
+        row-gap: 30px;
+        height: fit-content;
+      }
+      .root1 {
+        width: 100%;
+        height: fit-content;
+        order: 2;
+        row-gap: 30px;
+        font-size: 20px;
+      }
+      .root2 {
+        width: 100%;
+        height: fit-content;
+        order: 1;
+      }
+      .root3 {
+        width: 100%;
+        height: fit-content;
+        order: 3;
+        row-gap: 30px;
+        font-size: 20px;
+      }
+    }
+    .credit a {
+      text-decoration: none;
+      color: #000000;
+      font-weight: 800;
+    }
+    .credit {
+      color: #000000;
+      text-align: center;
+      margin-top: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .credit span {
+      color: tomato;
+      font-size: 20px;
+    }
