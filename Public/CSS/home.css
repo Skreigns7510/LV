@@ -460,6 +460,8 @@ i {
   justify-content: space-evenly;
   background-size: cover;
   background-position: center;
+  border-top: 20px solid #bebebe;
+  border-bottom: 20px solid #bebebe;
 }
 .contai {
   width: 25vmin;
@@ -1906,3 +1908,6 @@ margin: 50px 50px 60px;
 #product1 .hexagon:hover .hexagon-shape .content{
   opacity: 1;
 }
+
+     
+   
