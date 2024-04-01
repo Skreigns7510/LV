@@ -1859,9 +1859,9 @@ h2{
 
 #product1 .hexagon{
 position: relative;
-width: 250px;
-height: 300px;
-margin: 50px 50px 60px;
+width: 200px;
+height: 250px;
+margin: 50px 25px 60px;
 }
 
 #product1 .hexagon .hexagon-shape{
