@@ -1159,7 +1159,12 @@ h2{
     font-weight: 400;
    }
    #img-bg{
-    background: url(https://t3.ftcdn.net/jpg/02/70/03/44/360_F_270034417_6oHmS34V8MePTXdcdLdh54DnTvmYuUHq.jpg);
+    background: url(https://integrio.net/static/f303719d35fe03fb5a199466b9cc3ea9/end-to-end-development-services.png);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-Cyber{
+    background: url(https://tmediabusinesssolution.com/wp-content/uploads/2022/08/Cyber-Security.png);
     background-size: cover;
     background-position: center;
    }
@@ -1910,4 +1915,6 @@ margin: 50px 25px 60px;
 }
 
      
-   
+   .faltu{
+    color: red;
+   }

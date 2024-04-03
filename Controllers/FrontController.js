@@ -24,5 +24,21 @@ class FrontController{
             console.log(error)
         }
     }
+    static SoftwareDev =async(req,res)=>{
+        try{
+            res.render("SoftwareDev")
+        }
+        catch (error) {
+            console.log(error)
+        }
+    }
+    static CybersecuritySol =async(req,res)=>{
+        try{
+            res.render("CybersecuritySol")
+        }
+        catch (error) {
+            console.log(error)
+        }
+    }
 }
 module.exports=FrontController
