@@ -1139,7 +1139,7 @@ h2{
     padding: 30px 3rem ;
     font: 600 2.5rem montserrat;
     border-bottom: 2px solid #00abff;
-    width: fit-content;
+    /* width: fit-content; */
     margin: 2rem auto;
     color: white;
     text-transform: uppercase;
