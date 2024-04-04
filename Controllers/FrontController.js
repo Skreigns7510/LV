@@ -2,7 +2,7 @@ class FrontController{
 
     static home =async(req,res)=>{
         try{
-            res.render("home.ejs")
+            res.render("home")
         }
         catch (error) {
             console.log(error)
