@@ -7,6 +7,7 @@ route.get('/home',FrontController.home)
 route.get('/contact',FrontController.contact)
 route.get('/aboutus',FrontController.about)
 route.get('/portfolio',FrontController.portfolio)
+route.get('/careers',FrontController.careers)
 // services section
 route.get('/SoftwareDev',FrontController.SoftwareDev)
 route.get('/CybersecuritySol',FrontController.CybersecuritySol)

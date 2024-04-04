@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 #nav1 {
   padding: 0;
-  background: rgb(255 255 255 / 60%);
+  background: rgb(255 255 255 / 70%);
 }
 #nav1:hover{
   background-color: white;
@@ -416,11 +416,11 @@ i {
   color: #00abff;
 }
 
-.card-img-top {
+#cardy-img-top {
   height: 200px;
   width: 100%;
 }
-.card {
+#cardy {
   margin-top: 2.5rem;
   z-index: 1;
   overflow: hidden;
@@ -430,10 +430,10 @@ i {
   border-radius: 0.6rem;
   box-shadow: 1px 1px 10px #979797;
 }
-.card:hover {
+#cardy:hover {
   color: white;
 }
-.card::before {
+#cardy::before {
   content: "";
   position: absolute;
   left: -100%;
@@ -444,7 +444,7 @@ i {
   transition: 0.5s;
   z-index: -1;
 }
-.card:hover::before {
+#cardy:hover::before {
   left: 0%;
   color: white;
 }
@@ -1918,6 +1918,129 @@ margin: 50px 25px 60px;
 }
 
      
-   .faltu{
-    color: red;
-   }
+#cardheading{
+  color: white;
+  font-size: 2rem;
+  font-family: ui-monospace;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#cardg{
+  box-shadow: 5px 5px 25px 5px #a2a2a2;
+}
+#cardsub{
+  color: white;
+}
+
+/* CAREERS */
+
+#survey-container {
+  margin: 0px auto;
+  padding: 30px 20px;
+  width: 100%;
+  max-width: 840px;
+  border-radius: calc(3 * 5px);
+}
+
+#title {
+  margin: 30px 0;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #212529;
+}
+
+#description {
+  margin: 30px 0;
+  padding: 5px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color:  #212529;
+}
+
+#survey-form {
+  padding: 30px;
+  padding-top: 20px;
+  background:  #dcdcdd;
+  opacity: 98%;
+  border: none;
+  border-radius: calc(2 * 5px);
+}
+
+#survey-form * {
+  font-size: 16px;
+}
+
+.row-label,
+.row-input {
+  padding: 5px 10px;
+  margin: 0;
+  height:40px;
+  width: 100%;
+  display: block;
+}
+
+.row-label {
+  color:  #212529;
+  font-weight: 600;
+}
+
+.row-label:not(:first-child) {
+  margin-top:20px;
+}
+
+.row-input:not(.small) {
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.inline-label {
+  margin-left: 10px;
+  font-size: 14px;
+  color: var #212529;
+}
+
+.small {
+  height: calc(var(--box-height) * 0.75);
+}
+
+#comments {
+  padding: 10px;
+  margin: 0;
+  height: 120px;
+  width: 100%;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+
+#submit {
+  margin-top: calc(2 *20px);
+  height:40px;
+  width: 100%;
+  background: #659b5e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+#submit:hover {
+  box-shadow: 0 0 2px #212529;
+}
+ .bgcareers{
+  margin: 40px 40px;
+  padding: 0 10px;
+  background-image: url("https://i.postimg.cc/BnhHF28S/nastuh-abootalebi-y-Wwob8kw-OCk-unsplash-modified.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  border-radius: 20px;
+ }
