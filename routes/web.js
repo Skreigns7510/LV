@@ -13,7 +13,11 @@ route.get('/PrivacyAndPolicy',FrontController.PrivacyAndPolicy)
 // end
 
 route.get('/portfolio',FrontController.portfolio)
+<<<<<<< HEAD
 
+=======
+route.get('/careers',FrontController.careers)
+>>>>>>> 30af4836805dfc1b6747de6411ac206a2dad32ee
 // services section
 route.get('/SoftwareDev',FrontController.SoftwareDev)
 route.get('/CybersecuritySol',FrontController.CybersecuritySol)

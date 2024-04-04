@@ -24,6 +24,14 @@ class FrontController{
             console.log(error)
         }
     }
+    static careers =async(req,res)=>{
+        try{
+            res.render("careers")
+        }
+        catch (error) {
+            console.log(error)
+        }
+    }
     static portfolio =async(req,res)=>{
         try{
             res.render("portfolio")
