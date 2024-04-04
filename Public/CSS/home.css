@@ -212,7 +212,29 @@ i {
   justify-content: center;
   align-items: center;
 }
+.service-bg {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.367)),
+    url("https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .about-bg h1 {
+  font-size: 4rem;
+  font-family:montserrat;
+  font-weight: 600;
+  padding: 0.4rem 0;
+  letter-spacing: 1px;
+  word-spacing: 0.9rem;
+}
+.service-bg h1 {
   font-size: 4rem;
   font-family:montserrat;
   font-weight: 600;
@@ -1163,6 +1185,51 @@ h2{
    }
    #img-bg{
     background: url(https://integrio.net/static/f303719d35fe03fb5a199466b9cc3ea9/end-to-end-development-services.png);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-innovation{
+    background: url(https://c0.wallpaperflare.com/preview/240/719/588/innovation-machine-learning-technology.jpg);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-news{
+    background: url(https://img.freepik.com/free-photo/man-looking-stock-market-news-computer_53876-122481.jpg);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-privacy{
+    background: url(https://img.freepik.com/free-photo/privacy-policy-information-principle-strategy-rules-concept_53876-128045.jpg);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-cloud{
+    background: url(https://plus.unsplash.com/premium_photo-1681487942927-e1a2786e6036?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-data{
+    background: url(https://images.unsplash.com/photo-1599658880436-c61792e70672?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-it{
+    background: url(https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-manage{
+    background: url(https://img.freepik.com/premium-photo/developers-use-augmented-reality-dashboard-icons-with-responsive-cybersecurity_27634-1551.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712102400&semt=ais);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-digital{
+    background: url(https://transformationjourneys.co.uk/wp-content/uploads/2023/04/image-7.png);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-training{
+    background: url(https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
    }

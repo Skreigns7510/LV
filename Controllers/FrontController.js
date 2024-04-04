@@ -72,9 +72,9 @@ class FrontController{
             console.log(error)
         }
     }
-    static ManagedITServices =async(req,res)=>{
+    static ManageITServices =async(req,res)=>{
         try{
-            res.render("ManagedITServices")
+            res.render("ManageITServices")
         }
         catch (error) {
             console.log(error)
@@ -91,6 +91,30 @@ class FrontController{
     static TrainingandWorkshops =async(req,res)=>{
         try{
             res.render("TrainingandWorkshops")
+        }
+        catch (error) {
+            console.log(error)
+        }
+    }
+    static ResearchAndInnovatiion =async(req,res)=>{
+        try{
+            res.render("ResearchAndInnovatiion")
+        }
+        catch (error) {
+            console.log(error)
+        }
+    }
+    static NewsAndEvents =async(req,res)=>{
+        try{
+            res.render("NewsAndEvents")
+        }
+        catch (error) {
+            console.log(error)
+        }
+    }
+    static PrivacyAndPolicy =async(req,res)=>{
+        try{
+            res.render("PrivacyAndPolicy")
         }
         catch (error) {
             console.log(error)
