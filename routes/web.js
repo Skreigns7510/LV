@@ -6,6 +6,7 @@ route.get('/',FrontController.home)
 route.get('/home.ejs',FrontController.home)
 route.get('/contact.ejs',FrontController.contact)
 route.get('/aboutus.ejs',FrontController.about)
+route.get('/portfolio.ejs',FrontController.portfolio)
 // services section
 route.get('/SoftwareDev.ejs',FrontController.SoftwareDev)
 route.get('/CybersecuritySol.ejs',FrontController.CybersecuritySol)

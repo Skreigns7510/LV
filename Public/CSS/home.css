@@ -520,6 +520,9 @@ span.text {
     flex-direction: column;
     row-gap: 1.5rem;
   }
+  #navpadding{
+   padding-bottom: 1rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .wrapper {
@@ -1137,9 +1140,9 @@ h2{
    }
    .heading-section1{
     padding: 30px 3rem ;
-    font: 600 2.5rem montserrat;
+    font: 600 2.3rem montserrat;
     border-bottom: 2px solid #00abff;
-    /* width: fit-content; */
+    width: fit-content;
     margin: 2rem auto;
     color: white;
     text-transform: uppercase;
