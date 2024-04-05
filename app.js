@@ -3,7 +3,7 @@ const app = express()
 const port =4000
 const web = require('./routes/web')
 
-app.use(express.static('public'))
+app.use(express.static('Public'))
 
 
 app.set('view engine' , 'ejs')
