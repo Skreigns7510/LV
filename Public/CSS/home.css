@@ -215,7 +215,7 @@ i {
 .service-bg {
   height: 70vh;
   background: linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.367)),
-    url("https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    url("/Images/servicebg.webp");
   background-size: cover ;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1184,22 +1184,27 @@ h2{
     font-weight: 400;
    }
    #img-bg{
-    background: url(https://integrio.net/static/f303719d35fe03fb5a199466b9cc3ea9/end-to-end-development-services.png);
+    background: url(/Images/about-banner.png);
+    background-size: cover;
+    background-position: center;
+   }
+   #img-about{
+    background: url(/Images/WHO\ WE\ ARE.jpeg);
     background-size: cover;
     background-position: center;
    }
    #img-innovation{
-    background: url(https://c0.wallpaperflare.com/preview/240/719/588/innovation-machine-learning-technology.jpg);
+    background: url(/Images/research.jpeg);
     background-size: cover;
     background-position: center;
    }
    #img-news{
-    background: url(https://img.freepik.com/free-photo/man-looking-stock-market-news-computer_53876-122481.jpg);
+    background: url(/Images/NEWS\ AND\ EVENTS.avif);
     background-size: cover;
     background-position: center;
    }
    #img-privacy{
-    background: url(https://img.freepik.com/free-photo/privacy-policy-information-principle-strategy-rules-concept_53876-128045.jpg);
+    background: url(/Images/Privacy\ And\ Policy.avif);
     background-size: cover;
     background-position: center;
    }
@@ -1234,7 +1239,7 @@ h2{
     background-position: center;
    }
    #img-Cyber{
-    background: url(https://tmediabusinesssolution.com/wp-content/uploads/2022/08/Cyber-Security.png);
+    background: url(/Images/Cybersecurity\ Solutions.png);
     background-size: cover;
     background-position: center;
    }
