@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 #nav1 {
   padding: 0;
-  background: rgb(255 255 255 / 70%);
+  background: rgb(255 255 255 / 60%);
 }
 #nav1:hover{
   background-color: white;
@@ -145,7 +145,7 @@ h5 {
 #ft {
   display: flex;
   justify-content: space-evenly;
-  padding: 5rem;
+  padding: 2.5rem;
 }
 
 #ft ul {
