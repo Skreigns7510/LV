@@ -510,6 +510,13 @@ span.num {
   font-weight: 600;
   font-size: 3em;
 }
+span.num1 {
+  color: white;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 3em;
+}
 span.text {
   color: white;
   font-size: 1em;
@@ -530,6 +537,12 @@ span.text {
     flex-wrap: wrap;
     gap: 30px;
   }
+  #product1 .hexagon .hexagon-shape .content{
+    opacity: 1 !important; 
+  }
+  /* .sec2{
+    height: 100vh !important;
+  } */
   .contai {
     width: calc(50% - 40px);
     height: 30vmin;
@@ -1209,32 +1222,32 @@ h2{
     background-position: center;
    }
    #img-cloud{
-    background: url(https://plus.unsplash.com/premium_photo-1681487942927-e1a2786e6036?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background: url(/Images/Cloud\ Computing.webp);
     background-size: cover;
     background-position: center;
    }
    #img-data{
-    background: url(https://images.unsplash.com/photo-1599658880436-c61792e70672?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background: url(/Images/Data\ Analytics.avif);
     background-size: cover;
     background-position: center;
    }
    #img-it{
-    background: url(https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background: url(/Images/IT\ Consulting.avif);
     background-size: cover;
     background-position: center;
    }
    #img-manage{
-    background: url(https://img.freepik.com/premium-photo/developers-use-augmented-reality-dashboard-icons-with-responsive-cybersecurity_27634-1551.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712102400&semt=ais);
+    background: url(/Images/Manage\ IT\ Services.avif);
     background-size: cover;
     background-position: center;
    }
    #img-digital{
-    background: url(https://transformationjourneys.co.uk/wp-content/uploads/2023/04/image-7.png);
+    background: url(/Images/Digital\ Transformation.png);
     background-size: cover;
     background-position: center;
    }
    #img-training{
-    background: url(https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background: url(/Images/Training\ and\ Workshops.avif);
     background-size: cover;
     background-position: center;
    }
