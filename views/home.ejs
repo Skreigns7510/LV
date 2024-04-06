@@ -438,6 +438,23 @@
   </div>
 
   <script>
+    // Get all card bodies
+    var cardBodies = document.querySelectorAll('.card-body');
+
+    // Find the maximum height among all card bodies
+    var maxHeight = 0;
+    cardBodies.forEach(function(cardBody) {
+        maxHeight = Math.max(maxHeight, cardBody.offsetHeight);
+    });
+
+    // Set the height of all card bodies to the maximum height
+    cardBodies.forEach(function(cardBody) {
+        cardBody.style.height = maxHeight + 'px';
+    });
+</script>
+
+
+  <script>
     $(document).ready(function () {
       $(".customer-logos").slick({
         slidesToShow: 6,
