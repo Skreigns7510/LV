@@ -2,8 +2,8 @@ const express = require('express')
 const FrontController = require('../Controllers/FrontController')
 const route = express.Router()
 
-route.get('/',FrontController.home)
-route.get('/home',FrontController.home)
+route.get('/',FrontController.index)
+route.get('/index',FrontController.index)
 route.get('/contact',FrontController.contact)
 route.get('/careers',FrontController.careers)
 

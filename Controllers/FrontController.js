@@ -1,8 +1,8 @@
 class FrontController{
 
-    static home =async(req,res)=>{
+    static index =async(req,res)=>{
         try{
-            res.render("home")
+            res.render("index")
         }
         catch (error) {
             console.log(error)
